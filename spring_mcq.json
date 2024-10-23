@@ -100,9 +100,9 @@
     },
     {
         "id": "15",
-        "question": "What is the output of the below code?\n\nimport org.aspectj.lang.annotation.Aspect;\nimport org.aspectj.lang.annotation.AfterThrowing;\n@Aspect\npublic class SampleAspectClass {\n   @AfterThrowing(pointcut=\"com.interviewbit.Operations.someOperation()\", throwing=\"ex\")\n   public void doRecoveryActions(DataAccessException e){\n       throw new IllegalArgumentException();\n   }\n}",
-        "options": ["IllegalArgumentException", "BeanCreationException", "Runtime Error", "NullPointerException"],
-        "answer": "BeanCreationException"
+        "question": "What is true about <props> collection configuration elements?",
+        "options": ["This helps in wiring a list of values, allowing duplicates", "This helps in wiring a list of values but without any duplicates.", "This can be used to inject a collection of name-value pairs where name and value can be of any type.", "This can be used to inject a collection of name-value pairs where the name and value are both Strings."],
+        "answer": "This can be used to inject a collection of name-value pairs where the name and value are both Strings."
     },
     {
         "id": "16",
@@ -170,7 +170,7 @@
     {
         "id": "24",
         "question": "Can you inject null and empty string values in Spring?",
-        "options": ["Yes", "No"],
+        "options": ["Yes", "No","Yes", "No"],
         "answer": "Yes"
     },
     {
