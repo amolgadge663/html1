@@ -238,5 +238,225 @@
 			"DBTemplate"
         ],
         "answer": "JdbcTemplate"
+	},
+    {
+        "id": "31",
+        "question": "What is true about BeanPostProcessor?",
+        "options": [
+			"It is a concrete class.",
+			"It is an interface.",
+			"It is an abstract class.",
+			"None of the above."
+        ],
+        "answer": "It is an interface."
+	},
+    {
+        "id": "32",
+        "question": "By default a bean is eagerly loaded.",
+        "options": [
+			"False",
+			"False",
+			"True",
+			"True"
+        ],
+        "answer": "True"
+	},
+    {
+        "id": "33",
+        "question": "Which are the modules of Web layer?",
+        "options": [
+			"WebSocket, Servlet, Web, Portlet",
+			"WebSocket, Servlet, Web-MVC, Web",
+			"HTML, JSP, WEB, Portlet",
+			"HTML, Servlet, WEB, Portlet"
+        ],
+        "answer": "WebSocket, Servlet, Web, Portlet"
+	},
+    {
+        "id": "34",
+        "question": "Which is the way to provide configuration metadata to spring?",
+        "options": [
+			"XML Based configuration file.",
+			"Annotation based configuration.",
+			"Java based configuration.",
+			"All of the above."
+        ],
+        "answer": "All of the above."
+	},
+    {
+        "id": "35",
+        "question": "What is session scope?",
+        "options": [
+			"This scopes a bean definition to an HTTP session.",
+			"This scopes the bean definition to Spring IoC container.",
+			"This scopes the bean definition to HTTP request.",
+			"This scopes the bean definition to HTTP Application/ Global session."
+        ],
+        "answer": "This scopes a bean definition to an HTTP session."
+	},
+    {
+        "id": "36",
+        "question": "What is bean autowiring?",
+        "options": [
+			"Autowiring lets Spring resolve collaborators (other beans) for your bean by inspecting the contents of the BeanFactory without using <constructor-arg> and <property> elements.",
+			"Autowiring injects values in spring beans.",
+			"Autowiring injects one bean into another.",
+			"Autowiring helps in wiring a list of values, allowing duplicates."
+        ],
+        "answer": "Autowiring lets Spring resolve collaborators (other beans) for your bean by inspecting the contents of the BeanFactory without using <constructor-arg> and <property> elements."
+	},
+    {
+        "id": "37",
+        "question": "What is Weaving?",
+        "options": [
+			"Weaving is the process of injecting values in objects to create an advised object.",
+			"Weaving is the process of linking aspects with other application types or objects to create an advised object.",
+			"This is used to inject values in objects.",
+			"Weaving is used to check object dependencies."
+        ],
+        "answer": "Weaving is the process of linking aspects with other application types or objects to create an advised object."
+	},
+    {
+        "id": "38",
+        "question": "What are the types of the transaction management Spring supports?",
+        "options": [
+			"Programmatic transaction management",
+			"Declarative transaction management",
+			"Both of above.",
+			"None of above."
+        ],
+        "answer": "Both of above."
+	},
+    {
+        "id": "39",
+        "question": "How to handle shut down of IoC container?",
+        "options": [
+			"Using shutdownHook()",
+			"Using shutdownHandler()",
+			"Using registerHook()",
+			"Using registerShutdownHook()"
+        ],
+        "answer": "Using registerShutdownHook()"
+	},
+    {
+        "id": "40",
+        "question": "Which annotation is not used to inject dependencies into a Spring bean?",
+        "options": [
+			"@Inject",
+			"@Bean",
+			"@Autowired",
+			"@Resource"
+        ],
+        "answer": "@Bean"
+	},
+    {
+        "id": "41",
+        "question": "Which of the following annotations is NOT used to specify that a class is a Spring bean?",
+        "options": [
+			"@Service",
+			"@Qualifier",
+			"@Component",
+			"@Controller"
+        ],
+        "answer": "@Qualifier"
+	},
+    {
+        "id": "42",
+        "question": "Which annotation is used to enable transaction management in Spring?",
+        "options": [
+			"@Transactional",
+			"@EnableTransactionManagement",
+			"@ConfigureTransaction",
+			"@EnableTransactions"
+        ],
+        "answer": "@EnableTransactionManagement"
+	},
+    {
+        "id": "43",
+        "question": "Which scope in Spring ensures that object exists between every request in an HTTP session?",
+        "options": [
+			"Singleton",
+			"Prototype",
+			"Request",
+			"Session"
+        ],
+        "answer": "Session"
+	},
+    {
+        "id": "44",
+        "question": "In order to enable the Spring expression language (SpEL) in Spring beans, Which annotation is used?",
+        "options": [
+			"@ExpressionLanguage",
+			"@EnableSpEL",
+			"@SpEL",
+			"@Value"
+        ],
+        "answer": "@Value"
+	},
+    {
+        "id": "45",
+        "question": "To be eligible for Spring’s event handling mechanism, which interface should a class implement?",
+        "options": [
+			"EventListener",
+			"ApplicationListener",
+			"EventHandler",
+			"EventSubscriber"
+        ],
+        "answer": "ApplicationListener"
+	},
+    {
+        "id": "46",
+        "question": "Which annotation is used to enable scheduling tasks in Spring?",
+        "options": [
+			"@Scheduled",
+			"@EnableScheduling",
+			"@TaskScheduler",
+			"@Scheduling"
+        ],
+        "answer": "@EnableScheduling"
+	},
+    {
+        "id": "47",
+        "question": "Which annotation is used to mark a method as an exception handling method in Spring MVC?",
+        "options": [
+			"@ExceptionHandler",
+			"@ExceptionHandling",
+			"@HandleException",
+			"@ExceptionResolver"
+        ],
+        "answer": "@ExceptionHandler"
+	},
+    {
+        "id": "48",
+        "question": "If you want to write global exception handling code that can be applied to multiple controllers in Spring MVC, which annotation will you use?",
+        "options": [
+			"@GlobalExceptionHandling",
+			"@GlobalExceptionHandler",
+			"@ControllerAdvice",
+			"@EnableGlobalExceptionHandling"
+        ],
+        "answer": "@ControllerAdvice"
+	},
+    {
+        "id": "49",
+        "question": "In Spring JDBC, which method will you use to execute a SQL query that can map the results to a Java object?",
+        "options": [
+			"executeQueryForObject()",
+			"fetchObject()",
+			"executeForObject()",
+			"queryForObject()"
+        ],
+        "answer": "queryForObject()"
+	},
+    {
+        "id": "50",
+        "question": "How can you enable cross-origin resource sharing (CORS) in Spring MVC?",
+        "options": [
+			"Using the @EnableCors annotation",
+			"Using the <enable-cors> tag",
+			"Using the @CrossOrigin annotation",
+			"Using the @EnableCrossOrigin annotation"
+        ],
+        "answer": "Using the @CrossOrigin annotation"
 	}
 ]
